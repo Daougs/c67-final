@@ -31,7 +31,12 @@ export default class App extends React.Component {
             style: { color: '#fff', fontSize: 20 },
           }}
         />
-
+<TouchableOpacity
+style= {{backgroundColor:"#5B6F7A", width:20, height:10}}>
+  <Text>
+    "Imposter....red is sus"
+  </Text>
+</TouchableOpacity>
         <Image
           style={styles.imageIcon}
           source={{
